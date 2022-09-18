@@ -8,7 +8,7 @@ class App {
     private renderPage;
 
     private static appHash = '#App';
-    private static url = window.location.origin + App.appHash;
+    private static url = location.protocol + '//' + location.host + location.pathname + App.appHash;
     static eventTypeArray = [
         '',
         'Конференция',
