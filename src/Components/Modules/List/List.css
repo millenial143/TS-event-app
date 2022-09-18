@@ -1,0 +1,43 @@
+.event-page-list>div>select{
+    width: 100%;
+    overflow: auto;
+    outline: none;
+    border: 1px solid #0D1749;
+    box-sizing: border-box;
+}
+
+.event-page-list>div:not(.list-buttons){
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.event-page-list .event-page-input input[type="text"]{
+    font-size: 16px;
+}
+
+/* width */
+.event-page-list>div>select::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.event-page-list>div>select::-webkit-scrollbar-track {
+    background: #FDCE6F;
+}
+
+/* Handle */
+.event-page-list>div>select::-webkit-scrollbar-thumb {
+    background: #0D1749;
+    border-radius: 4px;
+}
+
+.list-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.list-buttons>.buttons{
+
+    height: 30px;
+
+}

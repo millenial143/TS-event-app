@@ -1,0 +1,26 @@
+.filter{
+    padding: 5px 10px 10px;
+}
+
+.filter-title{
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.date-filter{
+    margin-bottom: 20px;
+}
+
+.date-filter>div{
+    margin-bottom: 5px;
+}
+
+.type-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+
