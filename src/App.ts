@@ -67,7 +67,6 @@ class App {
             if (eventData){
                 container.innerHTML = '';
                 container.append(new EventPage(eventData).render())
-                console.log(eventData)
             }
         }else if (container !== null){
             container.innerHTML = '';
