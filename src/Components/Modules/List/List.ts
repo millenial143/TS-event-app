@@ -68,7 +68,7 @@ class List extends Component{
                 </select>
                 `;
         let elem =  this.listElement.querySelector('select');
-        if (elem){ // "уданить" неактивно после ререндера тк нет выбранного элемента
+        if (elem){ // "удалить" неактивно после ререндера тк нет выбранного элемента
             elem.addEventListener('input', (e) => {
                 if ((e.target as HTMLInputElement).value){
                     this.deleteButton.classList.remove('opacity');
@@ -99,6 +99,7 @@ class List extends Component{
             this.listData.push(this.newItemText);
             this.eventFunction(this.inputProperty, this.listData);
         }
+        this.newItemText = '';
         this.textInput.innerHTML = '';
         this.textInput.append(new Input(this.updateDataFunc, 'Участник', 'members', '', 'text').render());
         this.addListenerToChangeButton();
