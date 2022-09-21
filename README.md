@@ -1,4 +1,4 @@
-# telecom-oil-test-task
-Тестовое задание «Телеком-Ойл»
+# Event app on typescript
 
-https://millenial143.github.io/telecom-oil-test-task/dist/
+
+https://millenial143.github.io/TS-event-app/dist/
